@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Pizza",
+    "price": "$40",
+    "imageUrl": "https://i.ibb.co/yS8fpvy/menu-1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Burger",
+    "price": "$20",
+    "imageUrl": "https://i.ibb.co/3CxsKMz/menu-2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Pancake",
+    "price": "$45",
+    "imageUrl": "https://i.ibb.co/jh4c39s/menu-3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Waffles",
+    "price": "$35",
+    "imageUrl": "https://i.ibb.co/sj8RVZY/menu-4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Chocolate Pancake",
+    "price": "$50",
+    "imageUrl": "https://i.ibb.co/D5c3FP0/menu-5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Cupcakes",
+    "price": "$10",
+    "imageUrl": "https://i.ibb.co/kxyc4fZ/menu-6.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Cocktail",
+    "price": "$20",
+    "imageUrl": "https://i.ibb.co/K6bLZn4/menu-7.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Cereal",
+    "price": "$25",
+    "imageUrl": "https://i.ibb.co/z8PTJnG/menu-8.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Juice",
+    "price": "$5",
+    "imageUrl": "https://i.ibb.co/QD71r2Z/menu-9.jpg"
+  }
+]

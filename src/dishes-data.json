@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Rice",
+        "imageUrl": "https://i.ibb.co/PNSKvPQ/dish-1.png",
+        "price" : "₵50"
+    },
+    {
+        "id": "2",
+        "name": "Yam",
+        "imageUrl": "https://i.ibb.co/NsrkD1V/dish-2.png",
+        "price" : "₵50"
+    },
+    {
+        "id": "3",
+        "name": "Egg",
+        "imageUrl": "https://i.ibb.co/G2BbRzB/dish-3.png",
+        "price" : "₵50"
+    },
+    {
+        "id": "4",
+        "name": "Noodles",
+        "imageUrl": "https://i.ibb.co/1ZxGb3w/dish-4.png",
+        "price" : "₵50"
+    },
+    {
+        "id": "5",
+        "name": "Corn",
+        "imageUrl": "https://i.ibb.co/Dr977ZM/dish-5.png",
+        "price" : "₵50"
+    },
+    {
+        "id": "6",
+        "name": "Chicken",
+        "imageUrl": "https://i.ibb.co/yyFcxqc/dish-6.png",
+        "price" : "₵50"
+    }
+]

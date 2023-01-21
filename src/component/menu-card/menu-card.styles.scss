@@ -1,0 +1,81 @@
+:root {
+    --green: #27ae60;
+    --black: #192a56;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+.menu-container {
+  .menu-box {
+    background: #fff;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+
+    .image-container {
+      height: 25rem;
+      width: 100%;
+      padding: 1.5rem;
+      overflow: hidden;
+      position: relative;
+
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0.5rem;
+        object-fit: cover;
+      }
+
+      .fa-heart {
+        position: absolute;
+        top: 2.5rem;
+        right: 2.5rem;
+        height: 5rem;
+        width: 5rem;
+        line-height: 5rem;
+        text-align: center;
+        font-size: 2rem;
+        background: #fff;
+        border-radius: 50%;
+        color: var(--black);
+      }
+
+      .fa-heart:hover {
+        background-color: var(--green);
+        color: #fff;
+      }
+    }
+    .menu-content {
+      padding: 2rem;
+      padding-top: 0;
+
+      h3 {
+        color: var(--black);
+        font-size: 2.5rem;
+      }
+
+      p {
+        color: var(--light-color);
+        font-size: 1.6rem;
+        padding: 5rem 0;
+        line-height: 1.5;
+      }
+
+      .menu-price {
+        color: var(--green);
+        margin-left: 1rem;
+        font-size: 2.5rem;
+      }
+    }
+
+    .menu-stars {
+      padding-bottom: 1rem;
+
+      i {
+        font-size: 1.7rem;
+        color: var(--green);
+      }
+    }
+  }
+}

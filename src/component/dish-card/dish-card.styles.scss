@@ -1,0 +1,81 @@
+:root {
+    --green: #27ae60;
+    --black: #192a56;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+
+
+.box-container {
+
+  .box {
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+    .fa-heart,
+    .fa-eye {
+      position: absolute;
+      top: 1.5rem;
+      background: #eee;
+      border-radius: 50%;
+      height: 5rem;
+      width: 5rem;
+      line-height: 5rem;
+      font-size: 2rem;
+      color: var(--black);
+    }
+
+    .fa-heart:hover,
+    .fa-eye:hover {
+      background: var(--green);
+      color: #fff;
+    }
+    .fa-heart {
+      right: -15rem;
+    }
+
+    .fa-eye {
+      left: -15rem;
+    }
+
+    img {
+      height: 17rem;
+      margin: 1rem 0;
+    }
+
+    h3 {
+      color: var(--black);
+      font-size: 2.5rem;
+    }
+
+    .stars {
+      padding: 1rem 0;
+
+      i {
+        font-size: 1.7rem;
+        color: var(--green);
+      }
+    }
+
+    span {
+      color: var(--green);
+      font-weight: bolder;
+      margin-right: 1rem;
+      font-size: 2.5rem;
+    }
+  }
+  .box:hover .fa-heart {
+    right: 1.5rem;
+  }
+
+  .box:hover .fa-eye {
+    left: 1.5rem;
+  }
+}
