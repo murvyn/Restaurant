@@ -1,5 +1,7 @@
+import { Fragment } from "react";
 import { useContext } from "react";
 import DishCard from "../../component/dish-card/dish-card.component";
+import Footer from "../../component/footer/footer.component";
 import { ProductsContext } from "../../context/products/products.context";
 import './dish.styles.scss'
 //import "../../index.scss";
@@ -7,6 +9,7 @@ import './dish.styles.scss'
 const Dish = () => {
   const { dishes } = useContext(ProductsContext);
   return (
+    <Fragment>
     <section>
       <div className="dishes">
         <h3 class="sub-heading">our dishes</h3>
@@ -19,6 +22,8 @@ const Dish = () => {
         </div>
       </div>
     </section>
+    <Footer/>
+    </Fragment>
   );
 };
 

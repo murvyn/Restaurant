@@ -1,7 +1,10 @@
+import { Fragment } from "react";
+import Footer from "../../component/footer/footer.component";
 import "./about.styles.scss";
 
 const AboutUs = () => {
   return (
+    <Fragment>
     <section class="about" id="about">
       <h3 class="sub-heading">about us</h3>
       <h1 class="heading">why choose us?</h1>
@@ -41,6 +44,8 @@ const AboutUs = () => {
         </div>
       </div>
     </section>
+    <Footer/>
+    </Fragment>
   );
 };
 

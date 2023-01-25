@@ -1,0 +1,54 @@
+:root {
+  --green: #27ae60;
+  --black: #192a56;
+  --light-color: #666;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background: #fff;
+
+        justify-content: center;
+        align-items: center;
+
+    .footer-box-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+      gap: 5rem;
+      padding: 2% 5rem;
+    
+      .footer-box {
+        .email {
+            text-transform: lowercase;
+        }
+        h3 {
+          padding: 0.5rem 0;
+          font-size: 2.5rem;
+          color: var(--black);
+        }
+        a {
+          display: block;
+          padding: 0.5rem 0;
+          font-size: 1.5rem;
+          color: var(--light-color);
+        }
+        a:hover {
+          color: var(--green);
+          text-decoration: underline;
+        }
+      }
+    
+    }
+    .credits {
+      text-align: center;
+      border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+      font-size: 2rem;
+      color: var(--black);
+      padding: 0.5rem;
+      margin-top: 1.5rem;
+
+      span {
+        color: var(--green);
+      }
+    }
+}

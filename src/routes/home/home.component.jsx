@@ -1,4 +1,6 @@
+import { Fragment } from "react";
 import Directory from "../../component/directory/directory.component";
+import Footer from "../../component/footer/footer.component";
 
 const Home = () => {
   const images = [
@@ -16,11 +18,14 @@ const Home = () => {
     },
   ];
   return (
-    <section>
-      <div>
-        <Directory images={images} />
-      </div>
-    </section>
+    <Fragment>
+      <section>
+        <div>
+          <Directory images={images} />
+        </div>
+      </section>
+      <Footer />
+    </Fragment>
   );
 };
 export default Home;
